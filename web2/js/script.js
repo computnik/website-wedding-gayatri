@@ -39,7 +39,7 @@
 	var str = form.serialize(); 
 	$.ajax({
 		type: "POST", url: "mail/mail.php",	data: dataString, success: function() {
-		$('#div_'+type).html("<div id='form_send_message'>Thank you for your request, we will contact you as soon as possible to confirm your booking.</div>", 1500);	
+		$('#div_'+type).html("<div id='form_send_message'>Thank you :)</div>", 1500);
 	}
 	});
 	}
