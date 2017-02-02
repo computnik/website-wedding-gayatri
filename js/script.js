@@ -180,35 +180,5 @@
     /* Refresh ScrollR */
     s.refresh($(".guest_wrapper, .our_story"));
 
-    function initializeMap () {
-      var myLocation = new google.maps.LatLng(13.0429876, 77.6145404);
-
-      var mapOptions = {
-        zoom: 12,
-        center: myLocation,
-        mapTypeId: google.maps.MapTypeId.ROADMAP
-      };
-
-      var map = new google.maps.Map(document.getElementById("gmap_canvas"), mapOptions);
-
-      var marker = new google.maps.Marker({map: map, position: myLocation});
-
-      var address = "<strong>Naman Maheshwari</strong>" +
-                    "<br/>No. 91/4, 102/3," +
-                    "<br/>Opp BEL Corporate Office," +
-                    "<br/>Hebbal Flyover," +
-                    "<br/>Veerannapalya Rd," +
-                    "<br/>DadaMastan Layout," +
-                    "<br/>Manayata Tech Park, Nagavara" +
-                    "<br>Bengaluru, Karnataka - 560024 <br>";
-
-      var infowindow = new google.maps.InfoWindow({content: address, maxWidth: 400});
-
-      infowindow.open(map, marker);
-    }
-
-    google.maps.event.addDomListener(window, "load", initializeMap);
-
-
   });
 }(jQuery));
