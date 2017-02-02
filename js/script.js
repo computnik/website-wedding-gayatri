@@ -178,7 +178,7 @@
     });
 
     /* Refresh ScrollR */
-    //s.refresh($(".guest_wrapper, .our_story"));
+    s.refresh($(".guest_wrapper, .our_story"));
 
     function initializeMap () {
       var myLocation = new google.maps.LatLng(13.0429876, 77.6145404);
