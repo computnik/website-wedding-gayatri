@@ -959,6 +959,7 @@ header {
 
 .owl-controls {
   text-align: center;
+  zoom: 0.7;
 }
 
 .owl-pagination {
@@ -1868,6 +1869,10 @@ header {
 @media (max-width: 480px) {
   .story_txt p {
     margin: 0;
+  }
+
+  .owl-controls {
+    zoom:0.5;
   }
 
   .gallery .owl-buttons {
