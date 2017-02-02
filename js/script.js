@@ -121,7 +121,7 @@
     /*OWL Carousel in Our Story*/
     $(".story_wrapper").owlCarousel({
       navigation: true, responsive: true, responsiveRefreshRate: 200, slideSpeed: 200,
-      paginationSpeed: 200, rewindSpeed: 500, items: 3, itemsTablet: [768, 1], autoPlay: true,
+      paginationSpeed: 200, rewindSpeed: 500, items: 3, itemsTablet: [768, 1], autoPlay: false,
       itemsMobile: [479, 1], itemsDesktopSmall: [980, 1], itemsDesktop: [1500, 2], mouseDrag: true
     });
 
@@ -135,7 +135,7 @@
     /*Registry Carousel */
     $(".registry_wrapper").owlCarousel({
       navigation: true, responsive: true, responsiveRefreshRate: 200, slideSpeed: 200, paginationSpeed: 200,
-      rewindSpeed: 500, stopOnHover: true, autoHeight: true, items: 3, mouseDrag: false, autoPlay: true
+      rewindSpeed: 500, stopOnHover: true, autoHeight: true, items: 3, mouseDrag: true, autoPlay: true
     });
 
     /*The Crew Carousel*/
@@ -155,7 +155,7 @@
       stopOnHover: false,
       autoHeight: true,
       singleItem: true,
-      mouseDrag: false,
+      mouseDrag: true,
       autoPlay: true,
       transitionStyle: "fade"
     });
