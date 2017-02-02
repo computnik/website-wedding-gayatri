@@ -122,14 +122,14 @@
     $(".story_wrapper").owlCarousel({
       navigation: true, responsive: true, responsiveRefreshRate: 200, slideSpeed: 200,
       paginationSpeed: 200, rewindSpeed: 500, items: 3, itemsTablet: [768, 1], autoPlay: true,
-      itemsMobile: [479, 1], itemsDesktopSmall: [980, 1], itemsDesktop: [1500, 2], mouseDrag: false
+      itemsMobile: [479, 1], itemsDesktopSmall: [980, 1], itemsDesktop: [1500, 2], mouseDrag: true
     });
 
     /*Gallery Carousel */
     $(".gallery_wrapper").owlCarousel({
       navigation: true, responsive: true, responsiveRefreshRate: 200, slideSpeed: 200,
       paginationSpeed: 200, rewindSpeed: 500, items: 3, itemsTablet: [768, 2], autoPlay: true,
-      itemsMobile: [479, 1], mouseDrag: false
+      itemsMobile: [479, 1], mouseDrag: true
     });
 
     /*Registry Carousel */
@@ -141,7 +141,7 @@
     /*The Crew Carousel*/
     $(".guest_wrapper").owlCarousel({
       navigation: true, responsive: true, responsiveRefreshRate: 200, slideSpeed: 200, paginationSpeed: 200,
-      rewindSpeed: 500, stopOnHover: true, autoHeight: true, items: 4, mouseDrag: false, autoPlay: true
+      rewindSpeed: 500, stopOnHover: true, autoHeight: true, items: 4, mouseDrag: true, autoPlay: true
     });
 
     /*Slider Carousel*/
