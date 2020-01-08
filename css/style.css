@@ -1592,14 +1592,18 @@ header {
 }
 
 .thanks {
-    font: 45px/48px Great Vibes;
+    font: 36px/48px Great Vibes;
     padding: 0 24px;
     margin: 0 0 21px 0
 }
 
 .footer_txt {
     opacity: 0.8;
-    padding: 0 24px
+    padding: 0 24px;
+}
+
+.footer_txt > .title1 {
+    font: 36px/48px Great Vibes;
 }
 
 .footer_social {
@@ -1821,6 +1825,16 @@ header {
 
     .footer .container {
         padding: 250px 16px;
+    }
+
+    .thanks {
+        font: 45px/48px Great Vibes;
+        padding: 0 24px;
+        margin: 0 0 21px 0
+    }
+
+    .footer_txt > .title1 {
+        font: 45px/48px Great Vibes;
     }
 
 }
